@@ -132,6 +132,23 @@ button.cesium-infoBox-close {
     border-radius: 3px;
 }
 
+#slideMenuViewPoint2 {
+    position: fixed;
+    top: 248px;
+    left: 50px;
+    width: 80px;
+    opacity: 0.8;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+    margin-bottom: 0px;
+    background: white;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
 #slideMenuLayer {
     position: fixed;
     top: 48px;

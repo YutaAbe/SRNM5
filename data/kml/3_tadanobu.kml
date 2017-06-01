@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>3_tadanobu.kml</name>
+	<Style id="sh_tadanobu2">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_tadanobu">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_tadanobu">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_tadanobu0">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_tadanobu1">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_tadanobu">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tadanobu0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tadanobu0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_tadanobu2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tadanobu</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tadanobu2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tadanobu1">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_tadanobu0">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_tadanobu1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tadanobu1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tadanobu1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tadanobu2">
+		<IconStyle>
+			<Icon>
+				<href>image/tadanobu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_tadanobu0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tadanobu2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tadanobu</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>3_tadanobu</name>
+		<Placemark>
+			<TimeSpan>
+				<begin>1862-01-19T00:00:00Z</begin>
+				<end>1862-12-28T00:00:00Z</end>
+			</TimeSpan>
+			<name>抜け参りからぐれ出して</name>
+			<description><![CDATA[<strong>
+忠信利平『幼児の頃から手癖が悪く、抜け参りからぐれ出して』
+</strong>
+<br>むかし伊勢神宮へお参りに行くには親の承諾と地元の大家からの手形をもらわなければいけなかったというが、その手続きをせずにお参りすることを「抜け参り」と言っている
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=2m50s">忠信利平のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>136.7255850374696</longitude>
+				<latitude>34.45592728236201</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0001192779583233065</heading>
+				<tilt>0</tilt>
+				<range>4065.849210041466</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tadanobu2</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.7255850374695,34.45592728236201,1000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<TimeSpan>
+				<begin>1862-01-19T00:00:00Z</begin>
+				<end>1862-12-28T00:00:00Z</end>
+			</TimeSpan>
+			<name>首尾も吉野山</name>
+			<description><![CDATA[<strong>
+忠信利平『旅を稼ぎに西国を廻って首尾も吉野山』
+</strong>
+<br>首尾もよし（物事が上手くいくこと）を吉野山に掛けて言っている
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=2m50s">忠信利平のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>135.8669726006978</longitude>
+				<latitude>34.36039859994041</latitude>
+				<altitude>0</altitude>
+				<heading>3.938162806588127e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000015103447</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tadanobu1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>135.8669726006978,34.3603985999404,1000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<TimeSpan>
+				<begin>1862-01-19T00:00:00Z</begin>
+				<end>1862-12-28T00:00:00Z</end>
+			</TimeSpan>
+			<name>大峰に足を止めたる奈良の京</name>
+			<description><![CDATA[<strong>忠信利平『まぶな仕事も大峰に足を止めたる奈良の京』
+</strong>
+<br>大峰山は吉野山から紀伊の熊野までの山脈全体のこと
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=2m50s">忠信利平のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>135.9799968986441</longitude>
+				<latitude>34.01167179595516</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0673551640013397</heading>
+				<tilt>0</tilt>
+				<range>65720.52342986628</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tadanobu</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>136.0490333333333,34.02389722222222,1000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<TimeSpan>
+				<begin>1862-01-19T00:00:00Z</begin>
+				<end>1862-12-28T00:00:00Z</end>
+			</TimeSpan>
+			<name>金が御嶽の罪科は</name>
+			<description><![CDATA[<strong>
+忠信利平『碁打と云って寺々や豪家へ入込み盗んだる、金が御嶽の罪科は』
+</strong>
+<br>盗んだ金の罪科は身丈・三岳山のように積み重なってしまったと言っている
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=2m50s">忠信利平のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>137.6908653995394</longitude>
+				<latitude>34.85273559966026</latitude>
+				<altitude>0</altitude>
+				<heading>-2.632640526487796e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.00003870716</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_tadanobu0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>137.6908666666667,34.85273611111111,1000</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

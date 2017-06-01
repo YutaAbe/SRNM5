@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>4_akabosi.kml</name>
+	<Style id="sn_akabosi">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_akabosi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_akabosi0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_akabosi0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_akabosi0">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_akabosi1">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_akabosi">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_akabosi0">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_akabosi1">
+		<IconStyle>
+			<Icon>
+				<href>image/akabosi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_akabosi0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_akabosi1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_akabosi1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_akabosi1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_akabosi</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_akabosi</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>4_akabosi</name>
+		<Placemark>
+				<TimeSpan>
+					<begin>1862-01-23T00:00:00Z</begin>
+					<end>1862-12-30T00:00:00Z</end>
+				</TimeSpan>
+			<name>消ゆる間近き星月夜</name>
+			<description><![CDATA[<strong>
+赤星十三郎『今日ぞ命の明け方に消ゆる間近き星月夜』
+</strong>
+<br>星の無い月夜が明けるように自身の命が燃え尽きる寸前であることを言っている。
+<br>月のない星空と、坂ノ下にある星月夜の井戸をかけている。
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=4m13s">赤星十三郎のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>139.5337738002218</longitude>
+				<latitude>35.30977610122106</latitude>
+				<altitude>0</altitude>
+				<heading>1.282017981004314e-010</heading>
+				<tilt>0</tilt>
+				<range>1934.457912990299</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_akabosi</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.5337738002218,35.30977610122106,1000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+							<TimeSpan>
+								<begin>1862-01-23T00:00:00Z</begin>
+								<end>1862-12-30T00:00:00Z</end>
+						</TimeSpan>
+			<name>砥上ケ原に身の錆を</name>
+			<description><![CDATA[<strong>
+赤星十三郎『鈍き刃の腰越も砥上ケ原に身の錆を磨ぎ直しても、抜かねる盗み心』
+</strong>
+<br>砥上ケ原で身の錆を磨ぎ直しても、盗み心は錆びた鈍い刃のように抜けないと言っている。
+<br>現在の砥上公園付近
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=4m13s">赤星十三郎のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>139.4856092499154</longitude>
+				<latitude>35.33249219449063</latitude>
+				<altitude>0</altitude>
+				<heading>-5.960359473062631e-012</heading>
+				<tilt>0</tilt>
+				<range>1000.925159084497</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_akabosi0</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4856092499154,35.33249219449063,5000</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+				<TimeSpan>
+					<begin>1862-01-23T00:00:00Z</begin>
+					<end>1862-12-30T00:00:00Z</end>
+				</TimeSpan>
+			<name>花水橋の切取から</name>
+			<description><![CDATA[<strong>
+赤星十三郎『花水橋の切取から今牛若と名も高く、』
+</strong>
+<br>花水橋での華麗な切取強盗の様子から今牛若との評判が高いと言っている。
+<br>切取強盗とは人を切り殺して金品を盗む強盗のこと。
+<br><br>
+<a href = "https://youtu.be/6EEsPj_htQo?t=4m13s">赤星十三郎のツラネ on YouTube</a>]]></description>
+			<LookAt>
+				<longitude>139.3335421996483</longitude>
+				<latitude>35.31461959976667</latitude>
+				<altitude>0</altitude>
+				<heading>-2.032946941297851e-010</heading>
+				<tilt>0</tilt>
+				<range>1000.000022003175</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_akabosi1</styleUrl>
+			<Point>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.3335421996483,35.31461959976667,3000</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -4,11 +4,11 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-	<meta name="description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta name="description" content="Cesiumを使って白浪五人男「稲瀬川勢揃いの場」のツラネに関連した土地を可視化しました" />
 	<meta property="og:image" content="data/hinoshi.png" />
-	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta property="og:description" content="Cesiumを使って白浪五人男「稲瀬川勢揃いの場」のツラネに関連した土地を可視化しました" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>白浪五人男</title>
+	<title>白浪五人男 ツラネマッピング</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -32,7 +32,7 @@
 	<div id="svNotAvailable" onclick="fadeInOut(svNotAvailable,0)"></div>
 	<div id="blackOut">
 		<div align="center">
-		<img class="loading" src="data/loadingg.gif">
+		<img class="loading" src="data/loading.gif">
 	</div>
 	</div>
 	<div id="cesiumContainer"></div>
@@ -57,6 +57,7 @@
 		</div>
 	</div>
 	<div id="slideMenuViewPoint"></div>
+
 	<div id="slideMenuLayer"></div>
 	<div id="streetView_wrapper">
 		<div id="streetView"></div>
@@ -103,8 +104,8 @@
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			timeline: false,
-			animation: false,
+//			timeline: false,
+//			animation: false,
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -121,7 +122,7 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
+			requestWaterMask: false,
 			requestVertexNormals: true
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
@@ -149,9 +150,11 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("関東", 35.307, 139.439, 0, -40, 40000);
-		viewPointsArray[1] = new viewPoints("全体", 35.077, 138.209, 0, -35, 500000);
+		viewPointsArray[0] = new viewPoints("日本全体", 38.377, 138.309, -10, -90, 3000000);
+		viewPointsArray[1] = new viewPoints("全体", 35.077, 137.509, 0, -35, 500000);
 		viewPointsArray[2] = new viewPoints("初期視点", 35.300, 138.809, -75, -20, 220000);
+		viewPointsArray[3] = new viewPoints("関東", 35.307, 139.439, 0, -40, 40000);
+		viewPointsArray[4] = new viewPoints("関西", 34.307, 136.839, 5, -30, 200000);
 		//viewPointsArray[3] = new viewPoints("test", 25.300, 138.809, -75, -20, 220000);
 		//		viewPointsArray[2] = new viewPoints("初期視点", 35.077, 138.209, 0, -35, 300000);
 
@@ -161,11 +164,12 @@
 		var dropDownList = "";
 
 		for (var i = 0; i < viewPointsArray.length; i++) {
-			dropDownList = dropDownList + '<li><a href="#" onclick = "changeViewPoint(' + i + ',' + '3.0);return false;">' + viewPointsArray[i].label + '</a></li>';
+			dropDownList = dropDownList + '<li><a href="#" onclick = "changeViewPoint(' + i + ',' + '5.0);return false;">' + viewPointsArray[i].label + '</a></li>';
 		}
 
 		var viewPointChangeMenuHtml = '<ul class="viewpoint">' + dropDownList + '</ul>';
 		viewPointChangeMenu.innerHTML = viewPointChangeMenuHtml;
+
 
 		//視点を変更
 
@@ -237,12 +241,9 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("白浪",'data/kml/srnm5_ver9.kml');
-		//kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
-		//kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
 
 		//時間情報入りのKML
-		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
+		kmlDataArray[0] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
 		function loadKml() {
 			var i = 0;
