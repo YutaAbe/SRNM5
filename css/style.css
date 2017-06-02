@@ -222,8 +222,8 @@ button.cesium-infoBox-close {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -32px;
-    margin-left: -32px;
+    margin-top: -16px;
+    margin-left: -16px;
     
 }
 
